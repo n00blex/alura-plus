@@ -98,6 +98,41 @@ body {
     color: var(--description);
 }
 
-.tertiary-content {
+.content__list {
+    height: 65vh;
+    text-align: center;
+}
 
+.container__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2em 0;
+}
+
+.container__list__text {
+    color: var(--text);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer__content {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.footer__text {
+    margin: 1em 0;
+}
+
+.container__list__item a {
+    text-decoration: none;   
+    padding: 0 0.5em;
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container__list__item a:hover {
+    color: var(--button-main);
 }
